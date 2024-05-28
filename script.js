@@ -19,9 +19,10 @@ function saldoVitorias(vitoria, derrota){
             nivel = "Lendário"
         } else if (saldo >= 101) {
             nivel = "Imortal"
-        }        
+        }  
+         
+        console.log("O Herói tem saldo de " + saldo + " vitórias e esta no nível " + nivel + "!" )     
 }
 
 saldoVitorias(vitoria, derrota)
 
-console.log("O Herói tem saldo de " + saldo + " vitórias e esta no nível " + nivel + "!" )
